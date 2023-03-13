@@ -1,4 +1,4 @@
-#!/usr/bin/node
+!/usr/bin/node
 // searches the second biggest integer in the list of arguments.
 
 if (process.argv.length <= 3) {
