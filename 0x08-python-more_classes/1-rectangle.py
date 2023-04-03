@@ -8,7 +8,7 @@ Default values of both attributes are 0.
 
 
 class Rectangle:
-     """A Rectangle class with attributes  width and height"""
+    """A Rectangle class with attributes  width and height"""
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
@@ -37,5 +37,4 @@ class Rectangle:
         elif value < 0:
             raise ValueError("height must be >= 0")
         else:
-            self.__height = value
-   
+            self.__height = value 
